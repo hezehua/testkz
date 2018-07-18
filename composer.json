@@ -1,0 +1,22 @@
+{
+    "name": "hezehua/testkz",
+    "description": "just have a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hezehua",
+            "email": "1197265347@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hezehua\\Testkz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hezehua\\Testkz\\Tests\\": "tests/"
+        }
+    }
+}
